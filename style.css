@@ -1,8 +1,5 @@
 /* navbar */
- *{
-    margin: 0 !important;
-    padding: 0 !important;
- }
+
 ul{
     list-style: none;
 }
@@ -432,90 +429,72 @@ color:rgba(77, 77, 77, 1);
     }
 
 /* PART-7 */
-.whole {
-    height: 600px;
-    background-image: url("./part_7-icon/image-big.png");
+/* what our clients say*/
+
+.clients-title {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.clients-container {
+    background-image: url('./part_7-icon/image-big.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  @media screen and (max-width:991px) {
-    .whole {
-        height: 300px;
-    }
-    .whole .top h3{
-        
-        font-size: 20px !important;
-        line-height: 27px;
-       
-    }
-    .whole .top p {
-        font-size: 14px;
-        line-height: 16px;
-        
-      }
-  }
-  
-  .whole .top {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-  }
-  
-  .whole .top h3 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 54px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-  }
-  
-  .whole .top p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
-  .whole .down {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  
-  .whole .down .carousel {
+    height: 510px;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+
+}
+
+.carousel-item {
+    border-radius: 3px;
+}
+
+.carousel-indicators {
+    bottom: -9em;
+}
+
+/* .main-test-container {
     height: 100%;
-    width: 50%;
-  }
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 48px;
+    height: 48px;
+    color: #FFF;
+}
+
+.carousel-item img {
+    margin: auto auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 991px) {
+    .clients-container {
+        background-image: url('./part_7-icon/image-big.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+    }
+
+    .clients-title {
+        font-size: 2rem;
+        line-height: 1.35;
+        color: #FFF;
+    }
+
+    .text-white {
+        font-size: 1.4rem;
+        line-height: 1.14;
+    }
+}
   
 /* PART-8 */
 
